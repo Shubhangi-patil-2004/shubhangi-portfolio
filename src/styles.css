@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  background: #ffffff;
+  color: #12203a;
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+::selection {
+  background: #fde68a;
+  color: #12203a;
+}
